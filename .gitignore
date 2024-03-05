@@ -1,0 +1,14 @@
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+crash.log
+crash.*.log
+
+.terraform
+.terraform.lock.hcl
+terraform.rc
+
+# don't share my configuration
+dev.tfvars
+
